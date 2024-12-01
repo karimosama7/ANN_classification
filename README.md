@@ -7,6 +7,7 @@ Key Highlights:
 
 Loaded and visualized the Fashion MNIST dataset.
 Explored the data using sample images, labels, and basic statistical analysis.
+
 2️⃣ Model Architecture:
 Built a neural network with the following structure:
 
@@ -16,14 +17,17 @@ Dense layer with 120 neurons and ReLU activation.
 Dense layer with 64 neurons and ReLU activation.
 Dense layer with 16 neurons and ReLU activation.
 Output Layer: Softmax activation to classify 10 categories.
+
 3️⃣ Training the Model:
 
 Compiled the model with the categorical_crossentropy loss function and the Adam optimizer.
 Achieved significant improvements in accuracy over 10 epochs with a batch size of 32.
+
 4️⃣ Evaluation and Validation:
 
 Evaluated the model's performance on unseen validation data.
 Used visualizations to analyze predictions and misclassifications.
+
 What I Learned:
 The importance of tuning neural network architectures for optimal performance.
 Techniques to visualize and interpret model predictions effectively.
